@@ -23,8 +23,10 @@
     <div>
     <h3>Testo filtrato: </h3>
         <?php
-            echo $textChanged= str_replace("$censorship","***","$text") . "<br>";
-            echo "lunghezza testo: ".strlen($textChanged) -4 ." caratteri";
+            $textChanged= str_replace("$censorship","***","$text");
+            echo $textChanged . "<br>";
+            echo "lunghezza testo: ".strlen($textChanged)  ." caratteri";
+
         ?>
     </div>
 
