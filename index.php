@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body>   
+    <form action="text.php" method="post">
+        <label for="text">Inserire testo</label>
+        <textarea placeholder="Testo" name="text"></textarea>
+        <label for="text">Inserire censura</label>
+        <input type="text" placeholder="Censura" name="censorship">
+        <button type="submit">invia </button>
+    </form>
 </body>
 </html>
